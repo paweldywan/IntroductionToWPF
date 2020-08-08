@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6C0B77AC-4E30-493A-A958-B94850ECFE0B}</ProjectGuid>
+    <ProjectGuid>{DFD30CA2-8B41-46FA-8D35-2D5406911854}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Regexp</RootNamespace>
-    <AssemblyName>Regexp</AssemblyName>
+    <RootNamespace>DataGridProductsEdition</RootNamespace>
+    <AssemblyName>DataGridProductsEdition</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -63,13 +63,15 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="KolekcjaProduktow.cs" />
+    <Compile Include="Magazyny.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Osoba.cs" />
+    <Compile Include="Produkt.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

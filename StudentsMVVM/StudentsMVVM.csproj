@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6C0B77AC-4E30-493A-A958-B94850ECFE0B}</ProjectGuid>
+    <ProjectGuid>{0E77C4FC-8F68-48CB-B804-1C6D83D93641}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Regexp</RootNamespace>
-    <AssemblyName>Regexp</AssemblyName>
+    <RootNamespace>StudentsMVVM</RootNamespace>
+    <AssemblyName>StudentsMVVM</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -55,6 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="MyCommand.cs" />
+    <Compile Include="Student.cs" />
+    <Compile Include="StudentViewModel.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -69,7 +72,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Osoba.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
